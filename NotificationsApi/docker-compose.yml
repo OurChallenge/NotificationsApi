@@ -1,5 +1,5 @@
 services:
-  catalog-api:
+  notifications-api:
     build: .
     container_name: notifications-api
     ports:
