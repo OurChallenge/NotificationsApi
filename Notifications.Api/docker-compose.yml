@@ -1,6 +1,8 @@
 services:
   notifications-api:
-    build: .
+    build:
+      context: ..
+      dockerfile: Notifications.Api/Dockerfile
     container_name: notifications-api
     ports:
       - "5004:8080"

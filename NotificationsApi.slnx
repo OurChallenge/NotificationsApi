@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="NotificationsApi/NotificationsApi.csproj" />
+  <Project Path="Notifications.Api/Notifications.Api.csproj" />
+  <Project Path="Notifications.Application/Notifications.Application.csproj" />
+  <Project Path="Notifications.Infrastructure/Notifications.Infrastructure.csproj" />
 </Solution>
